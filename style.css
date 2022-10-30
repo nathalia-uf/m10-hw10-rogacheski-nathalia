@@ -30,11 +30,11 @@ h1,h2 {
   text-align: center;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 
@@ -44,7 +44,7 @@ a:hover {
   border-bottom: var(--secondary-color) 6px solid;
 }
 
-header a {
+.header__nav_link, .header__nav_logo {
   font-size: 1.5rem;
   color: var(--off-white);
 }
@@ -90,7 +90,7 @@ header a {
   text-align: center;
 }
 
-.section__hero_call-to-action {
+.section__call-to-action {
   font-size: 2rem;
   font-weight: 700;
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
@@ -98,7 +98,7 @@ header a {
   margin: 0;
 }
 
-.section__hero_button {
+.section__button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
@@ -111,7 +111,7 @@ header a {
   padding: 48px 96px;
 }
 
-main p {
+.paragraph {
   line-height: 1.75;
   margin-bottom: 48px;;
 }
