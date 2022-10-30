@@ -21,7 +21,8 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a1a1a1' fill-opacity='0.59' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.article__mainheading {
+
+.article__mainheading-big {
   font-size: 2.5rem;
 }
 
@@ -62,11 +63,11 @@ header a {
   display: flex;
 }
 
-.header__link {
+.header__nav_link {
   margin-left: 24px;
 }
 
-.header__logo {
+.header__nav_logo {
   margin-right: auto;
   text-transform: uppercase;
 }
@@ -89,7 +90,7 @@ header a {
   text-align: center;
 }
 
-.section__call-to-action {
+.section__hero_call-to-action {
   font-size: 2rem;
   font-weight: 700;
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
@@ -97,7 +98,7 @@ header a {
   margin: 0;
 }
 
-.section__button {
+.section__hero_button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
@@ -115,7 +116,7 @@ main p {
   margin-bottom: 48px;;
 }
 
-main > article img {
+.article__img {
   float: left;
   width: 300px;
   height: auto;
